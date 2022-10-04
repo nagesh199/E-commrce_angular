@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { OrderModule } from './order/order.module';
+import { SiteLayoutModule } from './site-layout/site-layout.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { OrderModule } from './order/order.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    OrderModule
+    OrderModule,
+    SiteLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
