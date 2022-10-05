@@ -12,7 +12,7 @@ export class ViewProductComponent implements OnInit {
 
   ngOnInit(): void {
     this.activatedRoute.params.subscribe(data=>{
-      this.productID = data.id
+      this.productID = data['id']
     })
   }
 

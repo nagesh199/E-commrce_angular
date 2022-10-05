@@ -1,5 +1,5 @@
 {
-    "posts": [
+    "product": [
       {
         "image_url":
           "https://content.shop4reebok.com/static/Product-EX4296/reebok_EX4296_1.jpg.plp",
@@ -253,9 +253,12 @@
         "strikedoffprice": 1799
       }
     ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 },
-      { "id": 2, "body": "some comment", "postId": 1 }
+    "categories": [
+      { "id": 1, "CategoryName": "Men"},
+      { "id": 2, "CategoryName": "WoMen" },
+      { "id": 3, "CategoryName": "Electronics" },
+      { "id": 4, "CategoryName": "Home $ Furniture" }, 
+      { "id": 5, "CategoryName": "Baby & Kids" }
     ],
     "profile": {
       "name": "typicode"
